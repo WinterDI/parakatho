@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'drawing';
+    src: url(../content/drawingFont.ttf);
+}
+body {
+    font-family: 'drawing', sans-serif;
+    background-color: #071b00;
+    color: #17c8cb;
+    padding: 20px;
+    font-size: 25px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+.question {
+    margin-bottom: 15px;
+}
+.question h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+.options li {
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+}
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6d0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.submit-btn:hover {
+    background-color: #aa0000;
+}

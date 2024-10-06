@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../content"
+		},
+		{
+			"path": "../css"
+		},
+		{
+			"path": "../js"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "public"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}
